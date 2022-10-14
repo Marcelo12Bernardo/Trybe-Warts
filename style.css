@@ -1,9 +1,20 @@
-.header{
+.header {
     display: flex;
     background-color: rgb(50, 167, 145);
     width: 100%;
     justify-content: space-between;
 }
-.trybewarts-login{
+
+.trybewarts-login {
+    display: flex;
+}
+
+main {
+    border: 2px solid red;
+    display: flex;
+}
+
+#evaluation-form {
+    width: 675px;
     display: flex;
 }
