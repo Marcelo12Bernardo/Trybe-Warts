@@ -10,5 +10,4 @@ btnForm.addEventListener('click', (e) => {
   }
   console.log(inputEmail.value);
   console.log(inputSenha.value);
-  console.log('oi');
 });
