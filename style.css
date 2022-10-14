@@ -28,3 +28,7 @@ main {
   display: flex;
   height: 500px;
 }
+
+.ladoAlado {
+    display: flex;
+}
