@@ -12,3 +12,4 @@ btnForm.addEventListener('click', (e) => {
   console.log(inputSenha.value);
   console.log('oi');
 });
+//alou
