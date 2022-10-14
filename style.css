@@ -32,3 +32,8 @@ main {
 .ladoAlado {
   display: flex;
 }
+
+#familia {
+  display: flex;
+  flex-direction: column;
+}
