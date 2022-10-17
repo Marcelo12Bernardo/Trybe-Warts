@@ -13,17 +13,13 @@ btnForm.addEventListener('click', (e) => {
   } else {
     alert('Email ou senha inválidos.');
   }
-  console.log(inputEmail.value);
-  console.log(inputSenha.value);
 });
 
-
-agree.addEventListener('change', function() {
+agree.addEventListener('change', function () {
   btnSubmit.disabled = !agree.checked;
-})
+});
 
-
-textArea.addEventListener('input', function() {
+textArea.addEventListener('input', function () {
   const text = textArea.value.length;
   showCounter.innerHTML = 500 - text;
-})
+});
