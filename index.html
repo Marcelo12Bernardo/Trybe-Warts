@@ -21,13 +21,13 @@
     </header>
 
     <main class="flex">
-        <h1>Formulario de Avalialçao</h1>
         <form action="" id="evaluation-form">
-            <section class="flex">
+            <h1 class="center">Formulario de Avalialçao</h1>
+            <section class="flex margimBaixo">
                 <input type="text" id="input-name" placeholder="Nome">
                 <input type="text" id="input-lastname" placeholder="Sobrenome">
             </section>
-            <section class="flex">
+            <section class="flex margimBaixo">
                 <input type="email" id="input-email" placeholder="Email">
                 <label for="">Casa:</label>
                 <select id="house">
@@ -37,8 +37,9 @@
                     <option id="pytherina-house" value="Pytherina">Pytherina</option>
                 </select>
             </section>
+            <div class="flex margimBaixo">
 
-            <section id="familia">
+            <section id="familia" class="boxFamili">
                 <label for="" id="label-family">Qual sua família?</label>
 
                 <label for="frontend"><input type="radio" name="family" value="Frontend" id="frontend">Família FrontEnd</label>
@@ -46,32 +47,33 @@
                 <label for="fullStack"><input type="radio" name="family" value="FullStack" id="fullStack">FullStack</label>                            
             </section>
 
-            <section>
+            <section class="boxConteudo">
                 <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-
+                
                 <section class="flex">
                     <label for="hofs"><input type="checkbox" value="HoFs" class="subject" id="hofs">HoFs</label>
                     <label for="jest"><input type="checkbox" value="Jest" class="subject" id="jest">Jest</label>
                     <label for="promises"><input type="checkbox" value="Promises" class="subject" id="promises">Promises</label>
+                    <br>
                     <label for="react"><input type="checkbox" value="React" class="subject" id="react">React</label>
                     <label for="sql"><input type="checkbox" value="SQL" class="subject" id="sql">SQL</label>
                     <label for="python"><input type="checkbox" value="Python" class="subject" id="python">Python</label>
                 </section>
             </section>
-
-            <section>
-                <label class="flex" id="label-rate">Como você avalia a Trybewarts?</label>
-                               
-                    <label for="1"><input type="radio" name ='rate' value="1" id="1">1</label>
-                    <label for="2"><input type="radio" name ='rate' value="2" id="2">2</label>
-                    <label for="3"><input type="radio" name ='rate' value="3" id="3">3</label>
-                    <label for="4"><input type="radio" name ='rate' value="4" id="4">4</label>
-                    <label for="5"><input type="radio" name ='rate' value="5" id="5">5</label>
-                    <label for="6"><input type="radio" name ='rate' value="6" id="6">6</label>
-                    <label for="7"><input type="radio" name ='rate' value="7" id="7">7</label>
-                    <label for="8"><input type="radio" name ='rate' value="8" id="8">8</label>
-                    <label for="9"><input type="radio" name ='rate' value="9" id="9">9</label>
-                    <label for="10"><input type="radio" name ='rate' value="10" id="10">10</label>                
+            </div>
+            <section class="flex margimBaixo">
+                <label id="label-rate">Como você avalia a Trybewarts?</label>
+                 
+                <label for="1"><input type="radio" name ='rate' value="1" id="1">1</label>
+                <label for="2"><input type="radio" name ='rate' value="2" id="2">2</label>
+                <label for="3"><input type="radio" name ='rate' value="3" id="3">3</label>
+                <label for="4"><input type="radio" name ='rate' value="4" id="4">4</label>
+                <label for="5"><input type="radio" name ='rate' value="5" id="5">5</label>
+                <label for="6"><input type="radio" name ='rate' value="6" id="6">6</label>
+                <label for="7"><input type="radio" name ='rate' value="7" id="7">7</label>
+                <label for="8"><input type="radio" name ='rate' value="8" id="8">8</label>
+                <label for="9"><input type="radio" name ='rate' value="9" id="9">9</label>
+                <label for="10"><input type="radio" name ='rate' value="10" id="10">10</label>                
             </section>
 
             <section>

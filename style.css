@@ -21,19 +21,42 @@ header img {
   display: flex;
 }
 
-/* main {
+main {
   border: 2px solid red;
-  display: flex;
-} */
+  /* display: flex; */
+  margin: auto;
+}
 
+form{
+  margin: auto;
+}
+#input-name,#input-email {
+  border: 2px solid blue;
+  margin-right: 40px;
+  /* margin: 20px 40px; */
+}
+
+.margimBaixo {
+  margin-bottom: 20px;
+}
 /* .trybewarts-login {
   display: flex;
 } */
 
 #evaluation-form {
   width: 675px;
+  border: 2px solid red;
   display: flex;
   flex-direction: column;
+}
+
+.boxFamili {
+  border: 2px solid blue;
+  margin-right: 40px;
+}
+
+.boxConteudo {
+  border: 2px solid orange;
 }
 
 #trybewarts-forms-logo {
@@ -49,3 +72,4 @@ header img {
   display: flex;
   flex-direction: column;
 }
+
