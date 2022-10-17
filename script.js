@@ -3,6 +3,9 @@ const inputEmail = document.getElementById('email');
 const inputSenha = document.getElementById('senha');
 const agree = document.getElementById('agreement');
 const btnSubmit = document.getElementById('submit-btn');
+const showCounter = document.getElementById('counter');
+const textArea = document.getElementById('textarea');
+
 btnForm.addEventListener('click', (e) => {
   e.preventDefault();
   if (inputEmail.value === 'tryber@teste.com' && inputSenha.value === '123456') {
@@ -17,4 +20,10 @@ btnForm.addEventListener('click', (e) => {
 
 agree.addEventListener('change', function() {
   btnSubmit.disabled = !agree.checked;
+})
+
+
+textArea.addEventListener('input', function() {
+  const text = textArea.value.length;
+  showCounter.innerHTML = 500 - text;
 })
