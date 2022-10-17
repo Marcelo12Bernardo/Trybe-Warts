@@ -23,7 +23,6 @@ header img {
 }
 
 main {
-  border: 2px solid red;  
   margin: auto;
 }
 
@@ -31,9 +30,9 @@ form {
   margin: auto;
 }
 
-#input-name , #input-email {
+#input-name, #input-email {
   border: 2px solid blue;
-  margin-right: 40px;  
+  margin-right: 40px;
 }
 
 .margimBaixo {
@@ -56,7 +55,7 @@ form {
   border: 2px solid orange;
 }
 
-#trybewarts-forms-logo {  
+#trybewarts-forms-logo {
   height: 500px;
 }
 
