@@ -17,6 +17,7 @@
 header img {
   width: 110px;
 }
+
 .flex {
   display: flex;
 }
@@ -27,10 +28,11 @@ main {
   margin: auto;
 }
 
-form{
+form {
   margin: auto;
 }
-#input-name,#input-email {
+
+#input-name , #input-email {
   border: 2px solid blue;
   margin-right: 40px;
   /* margin: 20px 40px; */
@@ -39,6 +41,7 @@ form{
 .margimBaixo {
   margin-bottom: 20px;
 }
+
 /* .trybewarts-login {
   display: flex;
 } */
