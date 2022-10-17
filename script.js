@@ -15,11 +15,11 @@ btnForm.addEventListener('click', (e) => {
   }
 });
 
-agree.addEventListener('change', function () {
+agree.addEventListener('change', () => {
   btnSubmit.disabled = !agree.checked;
 });
 
-textArea.addEventListener('input', function () {
+textArea.addEventListener('input', () => {
   const text = textArea.value.length;
   showCounter.innerHTML = 500 - text;
 });
