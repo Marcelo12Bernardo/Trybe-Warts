@@ -30,7 +30,7 @@ form {
   margin: auto;
 }
 
-#input-name, #input-email {
+#input-name , #input-email {
   border: 2px solid blue;
   margin-right: 40px;
 }
