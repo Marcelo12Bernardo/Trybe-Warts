@@ -14,18 +14,21 @@
   color: white;
 }
 
-header img{
+header img {
   width: 110px;
 }
-
-.trybewarts-login {
+.flex {
   display: flex;
 }
 
-main {
+/* main {
   border: 2px solid red;
   display: flex;
-}
+} */
+
+/* .trybewarts-login {
+  display: flex;
+} */
 
 #evaluation-form {
   width: 675px;
@@ -34,13 +37,13 @@ main {
 }
 
 #trybewarts-forms-logo {
-  display: flex;
+  /* display: flex; */
   height: 500px;
 }
 
-.ladoAlado {
+/* .ladoAlado {
   display: flex;
-}
+} */
 
 #familia {
   display: flex;

@@ -13,21 +13,21 @@
 
         <h1 id="trybewarts-header-title">Trybewarts</h1>
 
-        <form action="" method="post" name="form" class="trybewarts-login">
+        <form action="" method="post" name="form" class="trybewarts-login flex">
             <input type="email" placeholder="Email"  name="email" id="email">
             <input type="password" placeholder="Senha" name="password" id="senha">
             <button type="submit" id="btnSubmit">Entrar</button>
         </form>
     </header>
 
-    <main>
+    <main class="flex">
         <h1>Formulario de Avalialçao</h1>
         <form action="" id="evaluation-form">
-            <section class="ladoAlado">
+            <section class="flex">
                 <input type="text" id="input-name" placeholder="Nome">
                 <input type="text" id="input-lastname" placeholder="Sobrenome">
             </section>
-            <section class="ladoAlado">
+            <section class="flex">
                 <input type="email" id="input-email" placeholder="Email">
                 <label for="">Casa:</label>
                 <select id="house">
@@ -49,7 +49,7 @@
             <section>
                 <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
 
-                <section class="ladoAlado">
+                <section class="flex">
                     <label for="hofs"><input type="checkbox" value="HoFs" class="subject" id="hofs">HoFs</label>
                     <label for="jest"><input type="checkbox" value="Jest" class="subject" id="jest">Jest</label>
                     <label for="promises"><input type="checkbox" value="Promises" class="subject" id="promises">Promises</label>
@@ -60,7 +60,7 @@
             </section>
 
             <section>
-                <label class="ladoAlado" id="label-rate">Como você avalia a Trybewarts?</label>
+                <label class="flex" id="label-rate">Como você avalia a Trybewarts?</label>
                                
                     <label for="1"><input type="radio" name ='rate' value="1" id="1">1</label>
                     <label for="2"><input type="radio" name ='rate' value="2" id="2">2</label>
